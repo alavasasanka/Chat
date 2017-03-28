@@ -1,0 +1,10 @@
+{
+  "applications": {
+    "BS": {
+      "applicationId": "9neIFdGf9eioWcHfZF6lQNRECaiTSPDUbsbQM9yA"
+    },
+    "_default": {
+      "link": "BS"
+    }
+  }
+}

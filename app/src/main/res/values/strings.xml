@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Chat</string>
+    <string name="action_next">Next</string>
+    <string name="action_logout">Logout</string>
+    <string name="action_refresh">Refresh</string>
+    <string name="api_key">AIzaSyCOWiJlJHCOH2a6nitCDEWOFSQv9W1IU-c</string>
+</resources>

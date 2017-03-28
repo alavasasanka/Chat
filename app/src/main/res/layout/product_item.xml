@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_margin="10dp"
+              android:layout_width="match_parent"
+              android:layout_height="100dp">
+
+    <ImageView
+        android:id="@+id/productLogo"
+        android:src="#aaa"
+        android:layout_width="130dp"
+        android:layout_height="match_parent"/>
+
+    <Button
+        android:layout_alignParentRight="true"
+        android:id="@+id/callToActionButton"
+        android:text="BID"
+        android:layout_centerVertical="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_toRightOf="@id/productLogo"
+        android:layout_toLeftOf="@id/callToActionButton"
+        android:id="@+id/productName"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_toRightOf="@id/productLogo"
+        android:layout_toLeftOf="@id/callToActionButton"
+        android:layout_below="@id/productName"
+        android:id="@+id/productPrice"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</RelativeLayout>
